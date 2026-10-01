@@ -1,0 +1,206 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Form</title>
+		</head>
+		<body>
+			<h1 align="center"><img src="icon.jpg" alt="form icon" width="3%">Fill Up This Form</h1>
+			<!--A form contains only 2 tags; For labeling <label></label> tag, which is container tag. And Another one the <input> tag is the main working tag, which is empty tag  align="center"-->
+			<form method="get" align="center">
+			
+			<table border="1px" align="center" width="95%">
+			<!--row-1-->
+			<tr>
+				<td>
+				<div class="Name1">
+					<label>First Name</label><br>
+					<input type="text" name="name" placeholder="i.e Mohammad">
+				</div>
+				</td>
+				<td>
+				<div class="Name2">
+					<label>Last Name</label><br>
+					<input type="text" name="name" placeholder="i.e Hasan">
+				</div>
+				</td>
+				<td colspan="2">
+				<div class="Sur_name">
+					<label>Surname</label><br>
+					<input type="text" name="surname" placeholder="i.e Chowdhury">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-2-->
+				<tr>
+				<td colspan="2">
+				<div class="Father's Name">
+					<label>Father's Name</label><br>
+					<input type="text" name="name" placeholder="i.e Md. Abdullah">
+				</div>
+				</td>
+				<td colspan="2">
+				<div class="Mother's Name">
+					<label>Mother's Name</label><br>
+					<input type="text" name="name" placeholder="i.e Fatema">
+				</div>
+				</td>
+				</tr>
+				<tr>
+				<td colspan="2">
+				<div class="Present Address">
+					<label>Present Address</label><br>
+					<input type="text" name="address" placeholder="i.e Sadar,Sylhet-3100">
+				</div>
+				</td>
+				<td colspan="2">
+				<div class="Permanent Address">
+					<label>Permanent Address</label><br>
+					<input type="text" name="address" placeholder="i.e Sadar,Sylhet-3100">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-3-->
+				<tr>
+				<td>
+				<div class="Date of Birth">
+					<label>Date of Birth</label><br>
+					<input type="date" name="date_of_birth" placeholder="i.e 05/05/2025">
+				</div>
+				</td>
+				<td>
+				<div class="Age">
+					<label>Your age</label><br>
+					<input type="number" name="age" placeholder="i.e 40">
+				</div>
+				</td>
+				<td colspan="2" align="center">
+				<div class="Gender">
+					<label><u>Your Gender</u></label><br>
+					<input type="radio" name="Gender">Male
+					<input type="radio" name="Gender">Female
+					<input type="radio" name="Gender">Other's
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-4-->
+				<tr>
+				<td colspan="2" align="center">
+				<div class="Phone Number">
+					<label>Phone Number</label><br>
+					<input type="number" name="number" placeholder="i.e 01*********">
+				</div>
+				</td> 
+				<td colspan="2" align="center">
+				<div class="Gurdian Contact Number">
+					<label>Gurdian Contact Number</label><br>
+					<input type="number" name="Number" placeholder="i.e 01*********">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-5-->
+				<tr>
+				<td>
+				<div class="Profession">
+					<label>Your Profession</label><br>
+					<input type="text" name="Profession" placeholder="i.e Student">
+				</div>
+				</td>
+				<td>
+				<!--to avoid multiple selection use 'name' attribute-->
+				<div class="Marital Staus">
+					<label><u>Your Marital Staus</u></label><br>
+					<input type="radio" name="Marital_staus">Married
+					<input type="radio" name="Marital_staus">Unmarried
+				</div>
+				</td>
+				<td colspan="2" align="center">
+				<div class="Religion">
+					<label>Your Religion</label><br>
+					<input type="text" name="Religion" placeholder="i.e Islam">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-6-->
+				<tr>
+				<td>
+				<div class="Education">
+					<label><u>Your Educational Qualification</u></label><br>
+					<input type="checkbox" name="edu">SSC
+					<input type="checkbox" name="edu">HSC
+					<input type="checkbox" name="edu">Honors
+				</div>
+				</td>
+				<td>
+				<div class="Admission date">
+					<label>Date of Admission</label><br>
+					<input type="date" name="dmission_date" placeholder="i.e 01/01/2026">
+				</div>
+				</td>
+				<td colspan="2" align="center">
+				<div class="Blood Group">
+					<label>Your Blood Group</label><br>
+					<input type="text" name="Blood Group" placeholder="i.e A+">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-7-->
+				<tr>
+				<td>
+				<div class="NID Number">
+					<label>Your NID Number</label><br>
+					<input type="number" name="NID" placeholder="i.e 130*******">
+				</div>
+				</td>
+				<td>
+				<div class="Passport Number">
+					<label>Your Passport Number</label><br>
+					<input type="number" name="passport_number" placeholder="i.e AB1234567">
+				</div>
+				</td>
+				<td>
+				<div class="Birth Regi.">
+					<label>Birth Registration Number</label><br>
+					<input type="number" name="NID" placeholder="i.e 123*******...">
+				</div>
+				</td>
+				<td>
+				<div class="TIN ID Number">
+					<label>Your TIN ID Number</label><br>
+					<input type="number" name="TIN" placeholder="i.e 123*******">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-8-->
+				<tr>
+				<td colspan="2" align="center">
+				<div class="Gmail">
+					<label>Your Gmail Address</label><br>
+					<input type="mail" name="Gmail" placeholder="i.e xyz@gmail.com">
+				</div>
+				</td>
+				<td colspan="2" align="center">
+				<div class="Password">
+					<label>Your Password</label><br>
+					<input type="password" name="Password" placeholder="i.e &xY1cZ5#" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}$">
+				</div>
+				</td>
+				</tr>
+				
+				<!--row-9-->
+				<tr>
+				<td rowspan="2" colspan="4" align="center">
+					<input type="submit" name="submit" value="Send">
+					<input type="reset" name="reset" value="Clear">
+				</td>
+				</tr>
+				</table>
+			</form>
+		</body>
+	</html>
